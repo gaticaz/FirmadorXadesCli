@@ -1,10 +1,9 @@
-/* 
-==================================================
-cli para firmar xml
-codeado por gaticaz
-uso libre
-================================================== 
-*/
+/**
+ * CLI para firmar archivos XML usando XAdES.
+ * Uso libre.
+ *
+ * @author gaticaz
+ */
 
 package ar.edu.firmador.firmadorxades;
 
@@ -54,13 +53,7 @@ import java.util.List;
 import java.security.KeyStore;
 import java.util.Properties;
 
-
 public class FirmadorXadesCLI {
-    
-//    // Configuración de la cadena de confianza
-//    private static final String TRUSTSTORE_PATH = "certificados/truststore.jks";
-//    private static final String TRUSTSTORE_PASSWORD = "trust123";
-//    private static final String TRUSTSTORE_TYPE = "JKS"; // o "PKCS12"
     
     //  java -jar target/FirmadorXadesCli.jar --sql "SELECT * FROM personas" certificado.p12 clave123 salida_firmada.xml
     public static void main(String[] args) {
@@ -156,7 +149,6 @@ public class FirmadorXadesCLI {
         }
     }
 
-
     // Método principal: permite elegir entre firma detached o enveloped
     public static void firmarXml(String xmlPath, String p12Path, String p12Password, String outputPath, boolean detached) throws Exception {
         // 1. Cargar documento a firmar
@@ -185,7 +177,6 @@ public class FirmadorXadesCLI {
 
         // 4. Servicio de firma
         XAdESService service = new XAdESService(new CommonCertificateVerifier());
-//        service.setTspSource(new OnlineTSPSource("http://timestamp.digicert.com"));
         service.setTspSource(new OnlineTSPSource(Configuracion.getTsaUrl()));
 
         // 5. Firmar
@@ -208,12 +199,6 @@ public class FirmadorXadesCLI {
 
         // Configurar la fuente de certificados de confianza para DSS 6.2
         CommonTrustedCertificateSource trustedCertificateSource = new CommonTrustedCertificateSource();
-
-//        KeyStoreCertificateSource keyStoreCertificateSource = new KeyStoreCertificateSource(
-//            new File(TRUSTSTORE_PATH), 
-//            TRUSTSTORE_TYPE, 
-//            TRUSTSTORE_PASSWORD.toCharArray()
-//        );
 
         KeyStoreCertificateSource keyStoreCertificateSource = new KeyStoreCertificateSource(
             new File(Configuracion.getTruststorePath()),
