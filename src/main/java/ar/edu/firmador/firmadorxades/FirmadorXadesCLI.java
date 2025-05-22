@@ -1,3 +1,11 @@
+/* 
+==================================================
+cli para firmar xml
+codeado por gaticaz
+uso libre
+================================================== 
+*/
+
 package ar.edu.firmador.firmadorxades;
 
 import eu.europa.esig.dss.model.DSSDocument;
@@ -14,7 +22,6 @@ import eu.europa.esig.dss.model.ToBeSigned;
 import eu.europa.esig.dss.model.SignatureValue;
 
 import eu.europa.esig.dss.service.tsp.OnlineTSPSource;
-import eu.europa.esig.dss.spi.x509.tsp.TSPSource;
 
 import eu.europa.esig.dss.spi.validation.CertificateVerifier;
 import eu.europa.esig.dss.model.x509.CertificateToken;
@@ -43,7 +50,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 import java.util.List;
 import java.security.KeyStore;
 import java.util.Properties;
@@ -52,8 +58,8 @@ import java.util.Properties;
 public class FirmadorXadesCLI {
     
     // Configuración de la cadena de confianza
-    private static final String TRUSTSTORE_PATH = "/ruta/a/tu/truststore.jks";
-    private static final String TRUSTSTORE_PASSWORD = "password_truststore";
+    private static final String TRUSTSTORE_PATH = "certificados/truststore.jks";
+    private static final String TRUSTSTORE_PASSWORD = "trust123";
     private static final String TRUSTSTORE_TYPE = "JKS"; // o "PKCS12"
 
     
@@ -131,10 +137,6 @@ public class FirmadorXadesCLI {
                 } else {
                     signatureOutput = outputPath;
                 }
-
-//                String signatureOutput = detached
-//                    ? insertSuffixBeforeExtension(outputPath, "_fd")
-//                    : outputPath;
 
                 System.out.println("Firmando " + xmlPath + "...");
                 firmarXml(xmlPath, p12Path, p12Password, signatureOutput, detached);
