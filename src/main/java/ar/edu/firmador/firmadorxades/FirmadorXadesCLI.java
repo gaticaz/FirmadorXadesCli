@@ -57,11 +57,10 @@ import java.util.Properties;
 
 public class FirmadorXadesCLI {
     
-    // Configuración de la cadena de confianza
-    private static final String TRUSTSTORE_PATH = "certificados/truststore.jks";
-    private static final String TRUSTSTORE_PASSWORD = "trust123";
-    private static final String TRUSTSTORE_TYPE = "JKS"; // o "PKCS12"
-
+//    // Configuración de la cadena de confianza
+//    private static final String TRUSTSTORE_PATH = "certificados/truststore.jks";
+//    private static final String TRUSTSTORE_PASSWORD = "trust123";
+//    private static final String TRUSTSTORE_TYPE = "JKS"; // o "PKCS12"
     
     //  java -jar target/FirmadorXadesCli.jar --sql "SELECT * FROM personas" certificado.p12 clave123 salida_firmada.xml
     public static void main(String[] args) {
@@ -186,7 +185,8 @@ public class FirmadorXadesCLI {
 
         // 4. Servicio de firma
         XAdESService service = new XAdESService(new CommonCertificateVerifier());
-        service.setTspSource(new OnlineTSPSource("http://timestamp.digicert.com"));
+//        service.setTspSource(new OnlineTSPSource("http://timestamp.digicert.com"));
+        service.setTspSource(new OnlineTSPSource(Configuracion.getTsaUrl()));
 
         // 5. Firmar
         ToBeSigned dataToSign = service.getDataToSign(documentToSign, params);
@@ -209,10 +209,16 @@ public class FirmadorXadesCLI {
         // Configurar la fuente de certificados de confianza para DSS 6.2
         CommonTrustedCertificateSource trustedCertificateSource = new CommonTrustedCertificateSource();
 
+//        KeyStoreCertificateSource keyStoreCertificateSource = new KeyStoreCertificateSource(
+//            new File(TRUSTSTORE_PATH), 
+//            TRUSTSTORE_TYPE, 
+//            TRUSTSTORE_PASSWORD.toCharArray()
+//        );
+
         KeyStoreCertificateSource keyStoreCertificateSource = new KeyStoreCertificateSource(
-            new File(TRUSTSTORE_PATH), 
-            TRUSTSTORE_TYPE, 
-            TRUSTSTORE_PASSWORD.toCharArray()
+            new File(Configuracion.getTruststorePath()),
+            Configuracion.getTruststoreType(),
+            Configuracion.getTruststorePassword().toCharArray()
         );
 
         // Forma correcta de importar certificados en DSS 6.2:
