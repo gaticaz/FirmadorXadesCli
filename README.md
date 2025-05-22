@@ -1,6 +1,6 @@
 # FirmadorXadesCli
 
-El firmador crea archivos firmados con estandar xades. Enbebe la firma o crea archivo de firma separado (detached)
+El firmador crea archivos firmados con estandar xades. Empauqeta la firma o crea archivo de firma separado (detached).
 Se puede configurar una conexion a una base de datos postgreSQL para realizar consultas, la salida de las mismas se grabará como xml y se firmará.
 
 > [!IMPORTANT]
