@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ar.edu.firmador</groupId>
+    <artifactId>FirmadorXadesCli</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>17</maven.compiler.release>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <exec.mainClass>ar.edu.firmador.firmadorxades.FirmadorXades</exec.mainClass>
+    </properties>
+    
+    <repositories>
+        <repository>
+            <id>DSS-release</id>
+            <url>https://maven.digitalsignature.services/releases</url>
+        </repository>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
+    
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/eu.europa.ec.joinup.sd-dss/dss-spi -->
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-spi</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/eu.europa.ec.joinup.sd-dss/dss-xades -->
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-xades</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/eu.europa.ec.joinup.sd-dss/dss-model -->
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-model</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/eu.europa.ec.joinup.sd-dss/dss-certificate-validation-common -->
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-certificate-validation-common</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/eu.europa.ec.joinup.sd-dss/dss-token -->
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-token</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/eu.europa.ec.joinup.sd-dss/dss-document -->
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-document</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.digidoc4j.dss/dss-utils-apache-commons -->
+        <dependency>
+            <groupId>org.digidoc4j.dss</groupId>
+            <artifactId>dss-utils-apache-commons</artifactId>
+            <version>6.0.1.d4j.1</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <!-- BouncyCastle (requerido para criptografía) -->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk18on</artifactId>
+            <version>1.80</version>
+        </dependency>
+
+        <!-- SLF4J (para logs) -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.12</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-utils-apache-commons</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>sd-dss</artifactId>
+            <version>6.2</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-service</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-validation-rest-client</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.5</version>
+            <classifier>all</classifier>
+        </dependency>
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-validation</artifactId>
+            <version>6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-enumerations</artifactId>
+            <version>6.2</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>ar.edu.firmador.firmadorxades.FirmadorXadesCLI</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <!-- Para que el JAR principal sea el que tiene las dependencias -->
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <finalName>${project.artifactId}</finalName>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+    <name>FirmadorXadesCli</name>
+</project>

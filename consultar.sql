@@ -1,0 +1,1 @@
+SELECT * FROM negocio.sga_colegios_secundarios;

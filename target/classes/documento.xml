@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.46.3" platform="*nix">
+	<Queue>
+		<Server>
+			<Host>190.210.176.91</Host>
+			<Port>21</Port>
+			<Protocol>0</Protocol>
+			<Type>0</Type>
+			<User>artmedia</User>
+			<Pass encoding="base64">QFAzc2tpMTI=</Pass>
+			<Logontype>1</Logontype>
+			<TimezoneOffset>0</TimezoneOffset>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<MaximumMultipleConnections>0</MaximumMultipleConnections>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>artmedia viejo</Name>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00023-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00023-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>43142</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00105-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00105-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>26450</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00105-pie.jpeg</LocalFile>
+				<RemoteFile>00105-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>35685</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00111-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00111-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>32338</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00111-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00111-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>42535</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00034-enc.jpeg</LocalFile>
+				<RemoteFile>00034-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>49072</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00111-enc.jpeg</LocalFile>
+				<RemoteFile>00111-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>29733</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00111-enc.png</LocalFile>
+				<RemoteFile>00111-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>11546</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00111-pie.jpeg</LocalFile>
+				<RemoteFile>00111-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>23020</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00111-pie.png</LocalFile>
+				<RemoteFile>00111-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>131</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00114-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00114-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>32338</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00114-enc.jpeg</LocalFile>
+				<RemoteFile>00114-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>29733</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00114-pie.jpeg</LocalFile>
+				<RemoteFile>00114-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>23020</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00121-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00121-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>240234</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00121-enc.jpeg</LocalFile>
+				<RemoteFile>00121-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>19715</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00121-pie.jpeg</LocalFile>
+				<RemoteFile>00121-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>22702</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00122-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00122-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>238408</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00122-enc.jpeg</LocalFile>
+				<RemoteFile>00122-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>19713</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00122-pie.jpeg</LocalFile>
+				<RemoteFile>00122-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>22702</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00124-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00124-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12766</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00124-enc.jpeg</LocalFile>
+				<RemoteFile>00124-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>26306</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00124-pie.png</LocalFile>
+				<RemoteFile>00124-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>6976</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00125-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00125-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12766</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00125-enc.jpeg</LocalFile>
+				<RemoteFile>00125-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>31355</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00125-pie.png</LocalFile>
+				<RemoteFile>00125-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>6976</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00126-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00126-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12766</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00126-enc.jpeg</LocalFile>
+				<RemoteFile>00126-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>27620</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00126-pie.png</LocalFile>
+				<RemoteFile>00126-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>6976</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00127-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00127-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12766</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00127-enc.jpeg</LocalFile>
+				<RemoteFile>00127-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>28952</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00127-pie.png</LocalFile>
+				<RemoteFile>00127-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>6976</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00128-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00128-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12766</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00128-enc.jpeg</LocalFile>
+				<RemoteFile>00128-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>28868</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00128-pie.png</LocalFile>
+				<RemoteFile>00128-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>6976</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00129-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00129-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12766</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00129-enc.jpeg</LocalFile>
+				<RemoteFile>00129-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>28799</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00129-pie.png</LocalFile>
+				<RemoteFile>00129-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>6976</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00130-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00130-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12766</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00130-enc.jpeg</LocalFile>
+				<RemoteFile>00130-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>28523</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00130-pie.png</LocalFile>
+				<RemoteFile>00130-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>6976</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00131-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00131-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>18644</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00131-pie.jpeg</LocalFile>
+				<RemoteFile>00131-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>13706</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00131-enc.jpeg</LocalFile>
+				<RemoteFile>00131-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>20780</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00132-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00132-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>19635</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00132-enc.jpeg</LocalFile>
+				<RemoteFile>00132-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>24083</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00132-pie.png</LocalFile>
+				<RemoteFile>00132-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>3068</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00133-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00133-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>18644</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00133-enc.jpeg</LocalFile>
+				<RemoteFile>00133-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>21163</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00133-pie.jpeg</LocalFile>
+				<RemoteFile>00133-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>13706</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00134-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00134-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>130564</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00134-enc.png</LocalFile>
+				<RemoteFile>00134-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>24106</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00134-pie.png</LocalFile>
+				<RemoteFile>00134-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>8067</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00135-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00135-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>26714</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00135-enc.jpeg</LocalFile>
+				<RemoteFile>00135-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>82167</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00135-pie.jpeg</LocalFile>
+				<RemoteFile>00135-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>17879</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00136-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00136-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2298</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00136-enc.png</LocalFile>
+				<RemoteFile>00136-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2248</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00137-enc.jpeg</LocalFile>
+				<RemoteFile>00137-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>43658</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00137-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00137-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>44326</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00137-pie.png</LocalFile>
+				<RemoteFile>00137-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9871</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00137-enc.png</LocalFile>
+				<RemoteFile>00137-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>23243</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00138-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00138-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2708</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00138-enc.png</LocalFile>
+				<RemoteFile>00138-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>1739</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00138-pie.png</LocalFile>
+				<RemoteFile>00138-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>6928</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00139-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00139-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>10800</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00139-enc.png</LocalFile>
+				<RemoteFile>00139-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>228393</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00139-pie.png</LocalFile>
+				<RemoteFile>00139-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2775</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00141-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00141-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>21105</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00141-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00141-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>19550</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00141-enc.jpeg</LocalFile>
+				<RemoteFile>00141-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>24791</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00141-enc.png</LocalFile>
+				<RemoteFile>00141-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>483957</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00141-pie.jpeg</LocalFile>
+				<RemoteFile>00141-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>20022</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00142-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00142-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>39841</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00142-enc.jpeg</LocalFile>
+				<RemoteFile>00142-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>111020</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00142-pie.png</LocalFile>
+				<RemoteFile>00142-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>47179</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00143-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00143-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>23693</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00143-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00143-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>179</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00143-enc.jpeg</LocalFile>
+				<RemoteFile>00143-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>37482</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00143-pie.png</LocalFile>
+				<RemoteFile>00143-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>231</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00143-enc.png</LocalFile>
+				<RemoteFile>00143-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>7996</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00146-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00146-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12275</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00146-enc.jpeg</LocalFile>
+				<RemoteFile>00146-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>13277</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00146-pie.jpeg</LocalFile>
+				<RemoteFile>00146-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12275</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00146-pie.png</LocalFile>
+				<RemoteFile>00146-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>1690</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00147-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00147-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>19175</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00147-enc.png</LocalFile>
+				<RemoteFile>00147-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>62613</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00147-pie.jpeg</LocalFile>
+				<RemoteFile>00147-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2105</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00148-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00148-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>23693</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00148-enc.jpeg</LocalFile>
+				<RemoteFile>00148-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>37482</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00148-pie.png</LocalFile>
+				<RemoteFile>00148-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>231</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00150-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00150-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>272</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00150-enc.png</LocalFile>
+				<RemoteFile>00150-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>4277</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00150-pie.png</LocalFile>
+				<RemoteFile>00150-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>5452</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00151-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00151-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>8063</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00151-enc.png</LocalFile>
+				<RemoteFile>00151-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>3725</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00151-pie.png</LocalFile>
+				<RemoteFile>00151-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2564</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00152-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00152-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>258</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00152-enc.png</LocalFile>
+				<RemoteFile>00152-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9883</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00152-pie.png</LocalFile>
+				<RemoteFile>00152-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9168</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00153-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00153-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>258</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00153-enc.png</LocalFile>
+				<RemoteFile>00153-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9883</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00153-pie.png</LocalFile>
+				<RemoteFile>00153-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9168</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00154-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00154-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>258</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00154-enc.png</LocalFile>
+				<RemoteFile>00154-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9883</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00154-pie.png</LocalFile>
+				<RemoteFile>00154-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9168</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00155-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00155-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>257</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00155-enc.png</LocalFile>
+				<RemoteFile>00155-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>37871</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00155-pie.png</LocalFile>
+				<RemoteFile>00155-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12464</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00156-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00156-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>8953</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00156-enc.png</LocalFile>
+				<RemoteFile>00156-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>4863</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00156-pie.png</LocalFile>
+				<RemoteFile>00156-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>4729</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00157-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00157-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>70866</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00157-enc.png</LocalFile>
+				<RemoteFile>00157-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9253</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00157-pie.png</LocalFile>
+				<RemoteFile>00157-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2081</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00158-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00158-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>267</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00158-enc.png</LocalFile>
+				<RemoteFile>00158-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>10478</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00158-pie.png</LocalFile>
+				<RemoteFile>00158-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>8971</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00159-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00159-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>48515</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00159-enc.png</LocalFile>
+				<RemoteFile>00159-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9667</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00159-pie.png</LocalFile>
+				<RemoteFile>00159-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>4097</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00160-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00160-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>87927</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00160-enc.png</LocalFile>
+				<RemoteFile>00160-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>121290</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00160-pie.png</LocalFile>
+				<RemoteFile>00160-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2578</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00161-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00161-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>87927</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00161-enc.png</LocalFile>
+				<RemoteFile>00161-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>121290</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00161-pie.png</LocalFile>
+				<RemoteFile>00161-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2578</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00162-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00162-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>87927</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00162-enc.png</LocalFile>
+				<RemoteFile>00162-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>121290</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00162-pie.png</LocalFile>
+				<RemoteFile>00162-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2578</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00163-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00163-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>87927</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00163-enc.png</LocalFile>
+				<RemoteFile>00163-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>121290</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00163-pie.png</LocalFile>
+				<RemoteFile>00163-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2578</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00164-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00164-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>87927</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00164-enc.png</LocalFile>
+				<RemoteFile>00164-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>121290</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00164-pie.png</LocalFile>
+				<RemoteFile>00164-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>2578</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00165-enc.png</LocalFile>
+				<RemoteFile>00165-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>306442</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00165-pie.png</LocalFile>
+				<RemoteFile>00165-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>5037</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00166-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00166-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>8865</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00166-enc.jpeg</LocalFile>
+				<RemoteFile>00166-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>157026</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00167-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00167-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>15380</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00167-enc.png</LocalFile>
+				<RemoteFile>00167-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>3620</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00167-pie.png</LocalFile>
+				<RemoteFile>00167-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>1630</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00168-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00168-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9046</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00168-enc.png</LocalFile>
+				<RemoteFile>00168-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>9046</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00168-pie.png</LocalFile>
+				<RemoteFile>00168-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>4461</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00169-BannerPieImagen.jpeg</LocalFile>
+				<RemoteFile>00169-BannerPieImagen.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>16582</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00169-enc.jpeg</LocalFile>
+				<RemoteFile>00169-enc.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>48399</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00169-pie.jpeg</LocalFile>
+				<RemoteFile>00169-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>12707</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00169-pie.png</LocalFile>
+				<RemoteFile>00169-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>18268</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00171-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00171-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>10374</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00171-enc.png</LocalFile>
+				<RemoteFile>00171-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>245000</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00171-pie.jpeg</LocalFile>
+				<RemoteFile>00171-pie.jpeg</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>17291</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00171-pie.png</LocalFile>
+				<RemoteFile>00171-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>56299</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00172-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00172-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>195638</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00172-enc.png</LocalFile>
+				<RemoteFile>00172-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>27514</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00172-pie.png</LocalFile>
+				<RemoteFile>00172-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>23473</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00173-BannerPieImagen.png</LocalFile>
+				<RemoteFile>00173-BannerPieImagen.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>39753</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00173-enc.png</LocalFile>
+				<RemoteFile>00173-enc.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>147937</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+			<File>
+				<LocalFile>/home/gaticaz/artmedia/imagenes/clientes/00173-pie.png</LocalFile>
+				<RemoteFile>00173-pie.png</RemoteFile>
+				<RemotePath>1 0 8 httpdocs 8 ArtMedia 8 imagenes 8 clientes</RemotePath>
+				<Download>1</Download>
+				<Size>3141</Size>
+				<DataType>1</DataType>
+				<OverwriteAction>2</OverwriteAction>
+			</File>
+		</Server>
+	</Queue>
+</FileZilla3>
