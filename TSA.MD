@@ -1,7 +1,7 @@
 # Servicios TSA gratuitos o públicos
 
 |URL                               |  TSA	          | Descripción	Notas  |
-|----------------------------------|----------------|--------------------|
+|---|:---:|---|
 |http://timestamp.digicert.com			|	DigiCert TSA		|	Muy confiable, ampliamente usado.  |
 |http://timestamp.sectigo.com			|	Sectigo TSA		|	Gratuito, sin autenticación.  |
 |http://tsa.startssl.com/rfc3161			|	StartSSL		|	Público, usado en algunos entornos de prueba.  |
