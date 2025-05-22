@@ -1,0 +1,4 @@
+# renombrar como db.properties
+jdbcUrl=jdbc:postgresql://uri_o_ip:PORT/DATABASE
+dbUser=user
+dbPassword=pass
