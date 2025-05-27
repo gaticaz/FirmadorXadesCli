@@ -1,22 +1,9 @@
-# FirmadorXadesCli
-
-El firmador crea archivos firmados con estandar xades. Empaqueta la firma o crea archivo de firma separado (detached).
-Se puede configurar una conexión a una base de datos PostgreSQL para realizar consultas, la salida de las mismas se grabará como xml y se firmará.
-
-> [!IMPORTANT]
-> Se debe contar con un certificado p12
-> Si se coloca la ruta de confianza se hará una validación de la firma luego del firmado.
-
-> [!TIP]
-> En lugar de un archivo .sql se puede usar un string 'select * from tabla where id = un_valor;'
-> 
-> El comportamiento será igual al del uso de un archivo .sql
-
-
-```markdown
 # Firmador XAdES CLI
+### FirmadorXadesCli.jar
 
 Herramienta en línea de comandos para firmar documentos XML generados desde archivos o consultas SQL, usando certificados P12. Soporta firma **enveloped** o **detached**.
+El firmador crea archivos firmados con estandar xades. Empaqueta la firma o crea archivo de firma separado (detached).
+Se puede configurar una conexión a una base de datos PostgreSQL para realizar consultas, la salida de las mismas se grabará como xml y se firmará.
 
 ---
 
@@ -31,7 +18,7 @@ Herramienta en línea de comandos para firmar documentos XML generados desde arc
 ## Uso general
 
 ```bash
-java -jar firmador-xades.jar [opciones]
+java -jar FirmadorXadesCli.jar [opciones]
 ```
 
 ---
@@ -55,28 +42,33 @@ java -jar firmador-xades.jar [opciones]
 ### 1. Firmar resultado de una consulta SQL
 
 ```bash
-java -jar firmador-xades.jar --sql archivo.sql --cert cert.p12 [--salida salida.xml] [--detached true|false]
+java -jar FirmadorXadesCli.jar --sql archivo.sql --cert cert.p12 [--salida salida.xml] [--detached true|false]
 ```
 
 O usando alias cortos:
 ```bash
-java -jar firmador-xades.jar -s archivo.sql -c cert.p12 -o salida.xml -d true
+java -jar FirmadorXadesCli.jar -s archivo.sql -c cert.p12 -o salida.xml -d true
 ```
 
 Si `archivo.sql` existe, se ejecutará su contenido como consulta SQL. 
 Si no, se intentará ejecutar directamente como string SQL inline.
+
+> [!TIP]
+> En lugar de un archivo .sql se puede usar un string 'select * from tabla where id = un_valor;'
+> 
+> El comportamiento será igual al del uso de un archivo .sql
 
 ---
 
 ### 2. Firmar archivo XML existente
 
 ```bash
-java -jar firmador-xades.jar --archivo entrada.xml --cert cert.p12 [--salida salida.xml] [--detached true|false]
+java -jar FirmadorXadesCli.jar --archivo entrada.xml --cert cert.p12 [--salida salida.xml] [--detached true|false]
 ```
 
 O usando alias cortos:
 ```bash
-java -jar firmador-xades.jar -a entrada.xml -c cert.p12 -o salida.xml -d true
+java -jar FirmadorXadesCli.jar -a entrada.xml -c cert.p12 -o salida.xml -d true
 ```
 
 ---
@@ -99,10 +91,13 @@ Ejemplo:
 
 ```bash
 # Para ver ayuda desde la consola
-java -jar firmador-xades.jar
+java -jar FirmadorXadesCli.jar
 ```
 
 Mostrará instrucciones de uso y ejemplos.
-```
+
+> [!IMPORTANT]
+> Se debe contar con un certificado p12
+> Si se coloca la ruta de confianza en el archivo config.properties se hará una validación de la firma luego del firmado.
 
 ---
