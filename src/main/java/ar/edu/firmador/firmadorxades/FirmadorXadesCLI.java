@@ -478,12 +478,37 @@ public class FirmadorXadesCLI {
         return filename.substring(0, lastDot) + suffix + filename.substring(lastDot);
     }
     
-    private static void mostrarUso() {
+    public static void mostrarUso() {
         System.err.println("Uso:");
-        System.err.println("  Firma XML:");
-        System.err.println("    java -jar firmador-xades.jar <archivo.xml> --cert cert.p12 --password clave [salida.xml] [--detached true|false]");
-        System.err.println("  Firma SQL:");
-        System.err.println("    java -jar firmador-xades.jar --sql \"SELECT * FROM tabla\" --cert cert.p12 --password clave [salida.xml] [--detached true|false]");
+        System.err.println();
+        System.err.println("Firmar consulta SQL:");
+        System.err.println("  java -jar firmador-xades.jar [opciones]");
+        System.err.println("  --sql <archivo.sql|query> | -s <archivo.sql|query>");
+        System.err.println("  --cert <cert.p12>          | -c <cert.p12>");
+        System.err.println("  [--salida <salida.xml>]     | -o <salida.xml>");
+        System.err.println("  [--detached true|false]     | -d [true|false]");
+        System.err.println();
+        System.err.println("Firmar archivo XML:");
+        System.err.println("  java -jar firmador-xades.jar [opciones]");
+        System.err.println("  --archivo <archivo.xml>     | -a <archivo.xml>");
+        System.err.println("  --cert <cert.p12>           | -c <cert.p12>");
+        System.err.println("  [--salida <salida.xml>]      | -o <salida.xml>");
+        System.err.println("  [--detached true|false]      | -d [true|false]");
+        System.err.println();
+        System.err.println("Ejemplos:");
+        System.err.println("  # Firmar resultado de archivo SQL");
+        System.err.println("  java -jar firmador-xades.jar --sql archivo.sql --cert cert.p12 --salida salida.xml --detached true");
+        System.err.println();
+        System.err.println("  # Firmar inline query con opciones cortas");
+        System.err.println("  java -jar firmador-xades.jar -s \"SELECT * FROM tabla\" -c cert.p12 -o salida.xml -d true");
+        System.err.println();
+        System.err.println("  # Firmar archivo XML");
+        System.err.println("  java -jar firmador-xades.jar --archivo entrada.xml --cert cert.p12 --detached");
+        System.err.println();
+        System.err.println("Notas:");
+        System.err.println("  - Si no se especifica --salida, se usará el nombre base del archivo de entrada.");
+        System.err.println("  - Si --detached es true, se agrega '_fd' antes de la extensión.");
+        System.err.println("  - La clave del certificado se solicita interactivamente por consola.");
         System.exit(1);
     }
 }
