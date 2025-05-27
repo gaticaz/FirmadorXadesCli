@@ -33,6 +33,7 @@ import eu.europa.esig.dss.spi.x509.KeyStoreCertificateSource;
 import eu.europa.esig.dss.validation.reports.Reports;
 
 import eu.europa.esig.dss.enumerations.DigestAlgorithm;
+import java.io.Console;
 
 import java.sql.*;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -51,36 +52,202 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.List;
 import java.security.KeyStore;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 public class FirmadorXadesCLI {
     
     //  java -jar target/FirmadorXadesCli.jar --sql "SELECT * FROM personas" certificado.p12 clave123 salida_firmada.xml
+//    public static void main(String[] args) {
+//        try {
+//            if (args.length >= 4 && "--sql".equals(args[0])) {
+//                // Modo SQL
+//                String sqlSource = args[1];
+//                String sqlQuery;
+//                File sqlFile = new File(sqlSource);
+//                sqlQuery = (sqlFile.exists() && sqlFile.isFile())
+//                    ? new String(Files.readAllBytes(sqlFile.toPath()), StandardCharsets.UTF_8)
+//                    : sqlSource;
+//
+//                String p12Path = args[2];
+//                String p12Password = args[3];
+//                String baseOutputName = "consulta.xml";
+//                boolean detached = false;
+//
+//                for (int i = 4; i < args.length; i++) {
+//                    if (args[i].equalsIgnoreCase("--detached") && i + 1 < args.length) {
+//                        detached = Boolean.parseBoolean(args[++i]);
+//                    } else {
+//                        baseOutputName = args[i];
+//                    }
+//                }
+//
+//                // Firmar la consulta
+//                Properties props = new Properties();
+//                try (FileInputStream fis = new FileInputStream("db.properties")) {
+//                    props.load(fis);
+//                }
+//
+//                String jdbcUrl = props.getProperty("jdbcUrl");
+//                String dbUser = props.getProperty("dbUser");
+//                String dbPassword = props.getProperty("dbPassword");
+//
+//                String xmlOutput = baseOutputName;
+//                String signatureOutput = detached
+//                    ? insertSuffixBeforeExtension(baseOutputName, "_fd")
+//                    : baseOutputName;
+//
+//                System.out.println("Ejecutando consulta y firmando resultados...");
+//                firmarQuery(jdbcUrl, dbUser, dbPassword, sqlQuery, p12Path, p12Password, xmlOutput, signatureOutput, detached);
+//                System.out.println("¡Firma completada! Archivo firmado en: " + new File(signatureOutput).getAbsolutePath());
+//
+//                System.out.println("\nValidando firma...");
+//                validarFirma(signatureOutput);
+//
+//            } else if (args.length >= 3) {
+//                // Modo archivo
+//                String xmlPath = args[0];
+//                String p12Path = args[1];
+//                String p12Password = args[2];
+//                boolean detached = false;
+//                String outputPath = null;
+//
+//                for (int i = 3; i < args.length; i++) {
+//                    if (args[i].equalsIgnoreCase("--detached") && i + 1 < args.length) {
+//                        detached = Boolean.parseBoolean(args[i + 1]);
+//                        i++;
+//                    } else {
+//                        outputPath = args[i];
+//                    }
+//                }
+//
+//                String signatureOutput;
+//                
+//                // Definir salida según si se especificó o no
+//                if (outputPath == null) {
+//                    signatureOutput = detached
+//                        ? insertSuffixBeforeExtension(xmlPath, "_fd")
+//                        : xmlPath;
+//                } else {
+//                    signatureOutput = outputPath;
+//                }
+//
+//                System.out.println("Firmando " + xmlPath + "...");
+//                firmarXml(xmlPath, p12Path, p12Password, signatureOutput, detached);
+//                System.out.println("¡Firma completada! Archivo firmado en: " + new File(signatureOutput).getAbsolutePath());
+//
+//                System.out.println("\nValidando firma...");
+//                validarFirma(signatureOutput);
+//            } else {
+//                System.err.println("Uso:");
+//                System.err.println("  Firma XML: java -jar firmador-xades.jar <archivo.xml> <certificado.p12> <clave> [salida.xml] [--detached true|false]");
+//                System.err.println("  Firma SQL: java -jar firmador-xades.jar --sql \"SELECT * FROM tabla\" <certificado.p12> <clave> [salida.xml] [--detached true|false]");
+//                System.exit(1);
+//            }
+//        } catch (Exception e) {
+//            System.err.println("Error:");
+//            e.printStackTrace();
+//            System.exit(2);
+//        }
+//    }
+    
     public static void main(String[] args) {
         try {
-            if (args.length >= 4 && "--sql".equals(args[0])) {
-                // Modo SQL
-                String sqlSource = args[1];
-                String sqlQuery;
-                File sqlFile = new File(sqlSource);
-                sqlQuery = (sqlFile.exists() && sqlFile.isFile())
-                    ? new String(Files.readAllBytes(sqlFile.toPath()), StandardCharsets.UTF_8)
-                    : sqlSource;
+            Map<String, String> params = new HashMap<>();
+            List<String> positionalArgs = new ArrayList<>();
 
-                String p12Path = args[2];
-                String p12Password = args[3];
-                String baseOutputName = "consulta.xml";
-                boolean detached = false;
+            // Procesamos los argumentos
+            for (int i = 0; i < args.length; i++) {
+                String arg = args[i];
 
-                for (int i = 4; i < args.length; i++) {
-                    if (args[i].equalsIgnoreCase("--detached") && i + 1 < args.length) {
-                        detached = Boolean.parseBoolean(args[++i]);
+                if (arg.startsWith("-")) {
+                    String key;
+                    String value = null;
+
+                    // Detectar si es -s o --sql
+                    String normalizedArg = arg.toLowerCase();
+
+                    if (normalizedArg.equals("--sql") || normalizedArg.equals("-s")) {
+                        key = "sql";
+                    } else if (normalizedArg.equals("--archivo") || normalizedArg.equals("-a")) {
+                        key = "archivo";
+                    } else if (normalizedArg.equals("--cert") || normalizedArg.equals("-c")) {
+                        key = "cert";
+                    } else if (normalizedArg.equals("--salida") || normalizedArg.equals("-o")) {
+                        key = "salida";
+                    } else if (normalizedArg.equals("--detached") || normalizedArg.equals("-d")) {
+                        key = "detached";
                     } else {
-                        baseOutputName = args[i];
+                        System.err.println("Parámetro desconocido: " + arg);
+                        mostrarUso();
+                        return;
                     }
+
+                    // Si hay valor siguiente (y no empieza con "-"), lo asignamos
+                    if (i + 1 < args.length && !args[i + 1].startsWith("-")) {
+                        value = args[++i];
+                    }
+
+                    // Casos especiales: detached sin valor
+                    if ("detached".equals(key)) {
+                        params.put(key, value != null ? value : "true");
+                    } else {
+                        if (value == null) {
+                            System.err.println("El parámetro '" + arg + "' requiere un valor.");
+                            mostrarUso();
+                            return;
+                        }
+                        params.put(key, value);
+                    }
+
+                } else {
+                    positionalArgs.add(arg);
+                }
+            }
+
+            // Validar modos de ejecución
+            boolean esSql = params.containsKey("sql");
+            boolean esArchivo = params.containsKey("archivo");
+
+            if (!esSql && !esArchivo) {
+                System.err.println("Se debe indicar --sql o --archivo.");
+                mostrarUso();
+            }
+
+            if (esSql && esArchivo) {
+                System.err.println("Solo puede usarse uno de los dos: --sql o --archivo.");
+                mostrarUso();
+            }
+
+            String p12Path = params.get("cert");
+            if (p12Path == null || p12Path.isBlank()) {
+                System.err.println("Se debe indicar el certificado con --cert");
+                mostrarUso();
+            }
+
+            // Pedimos la clave del certificado
+            Console console = System.console();
+            if (console == null) {
+                System.err.println("No se puede leer desde consola.");
+                System.exit(1);
+            }
+            char[] passwordChars = console.readPassword("Clave del certificado: ");
+            String p12Password = new String(passwordChars);
+
+            boolean detached = Boolean.parseBoolean(params.getOrDefault("detached", "false"));
+
+            if (esSql) {
+                // MODO SQL
+                String sqlSource = params.get("sql");
+                File sqlFile = new File(sqlSource);
+                String sqlQuery = sqlSource;
+
+                if (sqlFile.exists() && sqlFile.isFile()) {
+                    sqlQuery = new String(Files.readAllBytes(sqlFile.toPath()), StandardCharsets.UTF_8);
                 }
 
-                // Firmar la consulta
                 Properties props = new Properties();
                 try (FileInputStream fis = new FileInputStream("db.properties")) {
                     props.load(fis);
@@ -90,10 +257,17 @@ public class FirmadorXadesCLI {
                 String dbUser = props.getProperty("dbUser");
                 String dbPassword = props.getProperty("dbPassword");
 
+                String baseOutputName = params.get("salida");
+                if (baseOutputName == null) {
+                    baseOutputName = esSql && sqlFile.exists()
+                            ? sqlFile.getName().replaceFirst("[.][^.]+$", ".xml")
+                            : "salida.xml";
+                }
+
                 String xmlOutput = baseOutputName;
                 String signatureOutput = detached
-                    ? insertSuffixBeforeExtension(baseOutputName, "_fd")
-                    : baseOutputName;
+                        ? insertSuffixBeforeExtension(baseOutputName, "_fd")
+                        : baseOutputName;
 
                 System.out.println("Ejecutando consulta y firmando resultados...");
                 firmarQuery(jdbcUrl, dbUser, dbPassword, sqlQuery, p12Path, p12Password, xmlOutput, signatureOutput, detached);
@@ -102,30 +276,22 @@ public class FirmadorXadesCLI {
                 System.out.println("\nValidando firma...");
                 validarFirma(signatureOutput);
 
-            } else if (args.length >= 3) {
-                // Modo archivo
-                String xmlPath = args[0];
-                String p12Path = args[1];
-                String p12Password = args[2];
-                boolean detached = false;
-                String outputPath = null;
-
-                for (int i = 3; i < args.length; i++) {
-                    if (args[i].equalsIgnoreCase("--detached") && i + 1 < args.length) {
-                        detached = Boolean.parseBoolean(args[i + 1]);
-                        i++;
-                    } else {
-                        outputPath = args[i];
-                    }
+            } else {
+                // MODO ARCHIVO XML
+                String xmlPath = params.get("archivo");
+                File xmlFile = new File(xmlPath);
+                if (!xmlFile.exists() || !xmlFile.isFile()) {
+                    System.err.println("El archivo XML no existe: " + xmlPath);
+                    System.exit(1);
                 }
 
+                String outputPath = params.get("salida");
                 String signatureOutput;
-                
-                // Definir salida según si se especificó o no
+
                 if (outputPath == null) {
                     signatureOutput = detached
-                        ? insertSuffixBeforeExtension(xmlPath, "_fd")
-                        : xmlPath;
+                            ? insertSuffixBeforeExtension(xmlPath, "_fd")
+                            : xmlPath;
                 } else {
                     signatureOutput = outputPath;
                 }
@@ -136,12 +302,8 @@ public class FirmadorXadesCLI {
 
                 System.out.println("\nValidando firma...");
                 validarFirma(signatureOutput);
-            } else {
-                System.err.println("Uso:");
-                System.err.println("  Firma XML: java -jar firmador-xades.jar <archivo.xml> <certificado.p12> <clave> [salida.xml] [--detached true|false]");
-                System.err.println("  Firma SQL: java -jar firmador-xades.jar --sql \"SELECT * FROM tabla\" <certificado.p12> <clave> [salida.xml] [--detached true|false]");
-                System.exit(1);
             }
+
         } catch (Exception e) {
             System.err.println("Error:");
             e.printStackTrace();
@@ -314,5 +476,14 @@ public class FirmadorXadesCLI {
         int lastDot = filename.lastIndexOf('.');
         if (lastDot == -1) return filename + suffix;
         return filename.substring(0, lastDot) + suffix + filename.substring(lastDot);
+    }
+    
+    private static void mostrarUso() {
+        System.err.println("Uso:");
+        System.err.println("  Firma XML:");
+        System.err.println("    java -jar firmador-xades.jar <archivo.xml> --cert cert.p12 --password clave [salida.xml] [--detached true|false]");
+        System.err.println("  Firma SQL:");
+        System.err.println("    java -jar firmador-xades.jar --sql \"SELECT * FROM tabla\" --cert cert.p12 --password clave [salida.xml] [--detached true|false]");
+        System.exit(1);
     }
 }
