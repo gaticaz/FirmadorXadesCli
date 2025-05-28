@@ -54,7 +54,7 @@ java -jar FirmadorXadesCli.jar -s archivo.sql -c cert.p12 -o salida.xml -d true
 Si `archivo.sql` existe, se ejecutará su contenido como consulta SQL. 
 Si no, se intentará ejecutar directamente como string SQL inline.
 
-> [!SUGERENCIA]
+> [!TIP]
 > En lugar de un archivo .sql se puede usar un string 'select * from tabla where id = un_valor;'
 > 
 > El comportamiento será igual al del uso de un archivo .sql
@@ -78,7 +78,7 @@ java -jar FirmadorXadesCli.jar -a entrada.xml -c cert.p12 -o salida.xml -d true
 
 - Si **no se especifica `--salida`**, se usa el nombre del archivo de entrada con extensión `.xml`.
 - Si **`--detached true`**, se genera un segundo archivo con un agregado antes de la extensión `.xml`.
-> [!NOTA]
+> [!NOTE]
 > El agregado se configura en el archivo `config.properties`
 
 Ejemplo:
@@ -100,7 +100,7 @@ java -jar FirmadorXadesCli.jar
 
 Mostrará instrucciones de uso y ejemplos.
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Se debe contar con un certificado p12
 > Si se coloca la ruta de confianza en el archivo config.properties se hará una validación de la firma luego del firmado.
 
