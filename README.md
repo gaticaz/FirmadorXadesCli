@@ -10,7 +10,8 @@ Se puede configurar una conexión a una base de datos PostgreSQL para realizar c
 ## Requisitos
 
 - Java 8+
-- Archivo de propiedades `db.properties` si usas modo SQL
+- Archivo de propiedades para configurar acceso a una BD `db.properties` si usas modo SQL
+- Archivo de propiedades de configuración general `config.properties`
 - Certificado en formato `.p12`
 
 ---
@@ -53,7 +54,7 @@ java -jar FirmadorXadesCli.jar -s archivo.sql -c cert.p12 -o salida.xml -d true
 Si `archivo.sql` existe, se ejecutará su contenido como consulta SQL. 
 Si no, se intentará ejecutar directamente como string SQL inline.
 
-> [!TIP]
+> [!SUGERENCIA]
 > En lugar de un archivo .sql se puede usar un string 'select * from tabla where id = un_valor;'
 > 
 > El comportamiento será igual al del uso de un archivo .sql
@@ -76,9 +77,12 @@ java -jar FirmadorXadesCli.jar -a entrada.xml -c cert.p12 -o salida.xml -d true
 ## Comportamiento de salida
 
 - Si **no se especifica `--salida`**, se usa el nombre del archivo de entrada con extensión `.xml`.
-- Si **`--detached true`**, se genera un segundo archivo con `_fd.xml`.
+- Si **`--detached true`**, se genera un segundo archivo con un agregado antes de la extensión `.xml`.
+> [!NOTA]
+> El agregado se configura en el archivo `config.properties`
 
 Ejemplo:
+En config.properties signed.suffix=_fd
 ```bash
 --salida salida.xml --detached true
 → salida.xml (XML)
@@ -96,7 +100,7 @@ java -jar FirmadorXadesCli.jar
 
 Mostrará instrucciones de uso y ejemplos.
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > Se debe contar con un certificado p12
 > Si se coloca la ruta de confianza en el archivo config.properties se hará una validación de la firma luego del firmado.
 

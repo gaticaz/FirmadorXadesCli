@@ -172,7 +172,7 @@ public class FirmadorXadesCLI {
 
                 String xmlOutput = baseOutputName;
                 String signatureOutput = detached
-                        ? insertSuffixBeforeExtension(baseOutputName, "_fd")
+                        ? insertSuffixBeforeExtension(baseOutputName, Configuracion.getSignedSuffix())
                         : baseOutputName;
 
                 System.out.println("Ejecutando consulta y firmando resultados...");
@@ -196,7 +196,7 @@ public class FirmadorXadesCLI {
 
                 if (outputPath == null) {
                     signatureOutput = detached
-                            ? insertSuffixBeforeExtension(xmlPath, "_fd")
+                            ? insertSuffixBeforeExtension(xmlPath, Configuracion.getSignedSuffix())
                             : xmlPath;
                 } else {
                     signatureOutput = outputPath;
@@ -300,8 +300,8 @@ public class FirmadorXadesCLI {
             CertificateVerifier verifier = createCertificateVerifier();
             validator.setCertificateVerifier(verifier);
 
-            if (signedXmlPath.contains("_fd.xml")) {
-                String detachedXmlPath = signedXmlPath.replace("_fd.xml", ".xml");
+            if (signedXmlPath.contains(Configuracion.getSignedSuffix() + ".xml")) {
+                String detachedXmlPath = signedXmlPath.replace(Configuracion.getSignedSuffix() + ".xml", ".xml");
                 File detachedXmlFile = new File(detachedXmlPath);
                 if (detachedXmlFile.exists()) {
                     System.out.println("Detectado archivo original para firma detached: " + detachedXmlFile.getAbsolutePath());
@@ -413,7 +413,7 @@ public class FirmadorXadesCLI {
         System.err.println();
         System.err.println("Notas:");
         System.err.println("  - Si no se especifica --salida, se usará el nombre base del archivo de entrada.");
-        System.err.println("  - Si --detached es true, se agrega '_fd' antes de la extensión.");
+        System.err.println("  - Si --detached es true, se agrega '" + Configuracion.getSignedSuffix() + "' antes de la extensión.");
         System.err.println("  - La clave del certificado se solicita interactivamente por consola.");
         System.exit(1);
     }

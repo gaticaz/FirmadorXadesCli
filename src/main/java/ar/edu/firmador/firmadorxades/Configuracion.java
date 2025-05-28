@@ -43,5 +43,9 @@ public class Configuracion {
     public static String getTsaUrl() {
         return get("tsa.url");
     }
+    
+    public static String getSignedSuffix() {
+        return get("signed.suffix");
+    }
 }
 
