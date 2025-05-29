@@ -34,7 +34,8 @@ java -jar FirmadorXadesCli.jar [opciones]
 | `--salida`         | `-o`         | Nombre del archivo de salida (opcional). Si no se especifica, se usa el nombre base del archivo de entrada. |
 | `--detached`       | `-d`         | Firma en formato detached (`true`) u enveloped (`false`). Por defecto: `false`. |
 
-> Nota: La clave del certificado se solicita interactivamente por consola.
+> [!WARNING]
+> La clave del certificado se solicita interactivamente por consola.
 
 ---
 
