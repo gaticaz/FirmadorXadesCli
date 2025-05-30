@@ -4,7 +4,7 @@
 Herramienta en línea de comandos para firmar documentos XML generados desde archivos o consultas SQL, usando certificados P12.  
 Soporta firma **enveloped** o **detached**.  
 El firmador crea archivos firmados con estandar XAdES.  
-Empaqueta la firma o crea archivo de firma separado (detached).
+Empaqueta la firma o crea un archivo de firma separado (detached).
 Se puede configurar una conexión a una base de datos PostgreSQL para realizar consultas, la salida de las mismas se grabará como xml y se firmará.
 
 ---
