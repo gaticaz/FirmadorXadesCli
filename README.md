@@ -13,7 +13,7 @@ Se puede configurar una conexión a una base de datos PostgreSQL para realizar c
 ## Requisitos
 
 - Java 8+
-- Archivo de propiedades para configurar acceso a una BD `db.properties` si usas modo SQL
+- Archivo de propiedades para configurar acceso a una BD `db.properties` si se usa modo SQL
 - Archivo de propiedades de configuración general `config.properties`
 - Certificado en formato `.p12`
 
@@ -103,7 +103,7 @@ Si en el archivo config.properties la variable signed.suffix=_fd
 
 ## 🕛 Tiempo
 
-Se agregará un sello de tiempo con un servicio TSA de acceso libre.  
+Se agrega un sello de tiempo con un servicio TSA de acceso libre.  
 Este servicio se configura en el archivo config.properties usando la variable tsa.url=  
 Una lista de TSAs libres se puede ver en [esta lista](TSA.MD)
 
