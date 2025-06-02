@@ -1,4 +1,5 @@
 # Firmador XAdES CLI
+English clic the flag [:us:](README.EN.md)
 ### FirmadorXadesCli.jar
 
 Herramienta en línea de comandos para firmar documentos XML generados desde archivos o consultas SQL, usando certificados P12.  
@@ -122,3 +123,5 @@ Mostrará instrucciones de uso y ejemplos.
 > Si se coloca la ruta de confianza en el archivo config.properties se hará una validación de la firma luego del firmado.
 
 ---
+
+Si hay consultas de uso y/o modificaciones, podés escribir a ✉️ gaticaz@yahoo.com
